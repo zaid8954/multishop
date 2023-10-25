@@ -1,0 +1,2226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+     <!-- Owl Carousel -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ 
+     <!-- Libraries Stylesheet -->
+     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+     <link href="lib/animate/animate.min.css" rel="stylesheet">
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Khan Shop</title>
+  </head>
+  <body>
+    
+    <!-- top header starts here  -->
+    <div class="top-header ">
+        <div class="container d-flex justify-content-between  align-items-center">
+            <div class="top-header-left ">
+                <a href="#" class="text-decoration-none me-2">About</a>
+                <a href="#" class="text-decoration-none me-2">Contact</a>
+                <a href="#" class="text-decoration-none me-2">Help</a>
+                <a href="#" class="text-decoration-none me-2">FAQs</a>
+            </div>
+    
+            <div class="top-header-right">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-outline-secondary bg-dif dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      My Account
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">SIGN IN</a></li>
+                      <li><a class="dropdown-item" href="#">SIGN UP</a></li>
+                    </ul>
+                </div>
+    
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-outline-secondary bg-dif dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      USD
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">EUR</a></li>
+                      <li><a class="dropdown-item" href="#">GBP</a></li>
+                      <li><a class="dropdown-item" href="#">CARD</a></li>
+                    </ul>
+                </div>
+    
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-outline-secondary bg-dif dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      En
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">FR</a></li>
+                      <li><a class="dropdown-item" href="#">AR</a></li>
+                      <li><a class="dropdown-item" href="#">RU</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top center starts here  -->
+    <div class="top-center">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                    <div class="top-center-left">
+                        <h1 class="mb-0 h1"><span class="dark">KHAN</span><span class="yellow">SHOP</span></h1>
+                    </div>
+                </div>
+    
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 text-center">
+                  <div class="top-center-center">
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search For Products" aria-label="Recipient's username" aria-describedby="button-addon2">
+                          <button class="btn btn-warning btn-outline-warning text-secondary" type="button" id="button-addon2"><i class="fa fa-search "></i></button>
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 text-end">
+                    <div class="top-center-right">
+                        <h6 class="h6">Customer Service</h6>
+                        <h5>+012 345 6789</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header style="background:#3D464D;">
+      <div class="container">
+          <div class="row">
+              <div class="col-xxl-3 col-xl-3 col-lg-3" style=" display: flex; align-items: center;">
+                  <div class="bg-yellow-nav" style="background-color: #FFD333; width: 100%; padding: 1rem;">
+                      <div class="navbar-left">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">Dresses</a>
+                            <a href="#">Shirt</a>
+                            <a href="#">Jeans</a>
+                            <a href="#">Swimwear</a>
+                            <a href="#">Sleepwear</a>
+                            <a href="#">Sportswear</a>
+                            <a href="#">Jumpsuits</a>
+                            <a href="#">Blazers</a>
+                            <a href="#">Jackets</a>
+                            <a href="#">Shoes</a>
+                        </div>
+                      
+                        <span style="font-size:20px;cursor:pointer; font-weight: 500; color:#3D464D;" onclick="openNav()">&#9776; Categories</span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xxl-9 col-xl-9 col-lg-9 ">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active me-2">
+                              <a class="nav-link" href="#" style="color: #FFD333;">Home<span class="sr-only">(current)</span></a>
+                            </li>
+
+                          <li class="nav-item active me-2">
+                            <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item me-2">
+                            <a class="nav-link" href="detail.html">Shop Detail</a>
+                          </li>
+                          <li class="nav-item dropdown me-2">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                pages
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="shopping.html">Shopping Cart</a></li>
+                                <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                              </ul>
+                            </li>
+                          <li class="nav-item me-2">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                        </ul>
+
+                        <ul class="navbar-nav ms-auto d-flex align-items-center">
+                          <li class="nav-item active me-3">
+                              <i class="fas fa-heart me-2" style="font-size: 15px; color: #FFD333;"></i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 192C0 103.6 71.6 32 160 32s160 71.6 160 160V320c0 88.4-71.6 160-160 160S0 408.4 0 320V192zM160 96c-53 0-96 43-96 96V320c0 53 43 96 96 96s96-43 96-96V192c0-53-43-96-96-96z"/></svg>
+                          </li>
+
+                          <li class="nav-item">
+                              <i class="fas fa-shopping-cart me-2" style="font-size: 15px; color: #FFD333;"></i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 192C0 103.6 71.6 32 160 32s160 71.6 160 160V320c0 88.4-71.6 160-160 160S0 408.4 0 320V192zM160 96c-53 0-96 43-96 96V320c0 53 43 96 96 96s96-43 96-96V192c0-53-43-96-96-96z"/></svg>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <div class="top-header2 ">
+      <div class="container d-flex justify-content-center  align-items-center">
+  
+          <div class="top-header-right2">
+              <div class="btn-group me-1">
+                  <button type="button" class="btn btn-secondary btn-outline-secondary bg-dif dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    My Account
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">SIGN IN</a></li>
+                    <li><a class="dropdown-item" href="#">SIGN UP</a></li>
+                  </ul>
+              </div>
+  
+              <div class="btn-group me-1">
+                  <button type="button" class="btn btn-secondary btn-outline-secondary bg-dif dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    USD
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EUR</a></li>
+                    <li><a class="dropdown-item" href="#">GBP</a></li>
+                    <li><a class="dropdown-item" href="#">CARD</a></li>
+                  </ul>
+              </div>
+  
+              <div class="btn-group me-2">
+                  <button type="button" class="btn btn-secondary btn-outline-secondary bg-dif dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    En
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">FR</a></li>
+                    <li><a class="dropdown-item" href="#">AR</a></li>
+                    <li><a class="dropdown-item" href="#">RU</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="icon-top">
+              <i class="fas fa-heart me-1" style="font-size: 15px; color:#3D464D;"></i>
+              <i class="fas fa-shopping-cart me-1" style="font-size: 15px; color: #3D464D;"></i>
+          </div>
+      </div>
+  </div>
+
+  <header class="display">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="top-center-left1">
+              <h1 class="mb-0 h1"><span class="dark1">MULTI</span><span class="yellow1">SHOP</span></h1>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                  
+              <li class="nav-item active me-2">
+                  <a class="nav-link" href="#" style="color: #FFD333;">Home<span class="sr-only">(current)</span></a>
+              </li>  
+
+              <li class="nav-item active">
+                <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="detail.html">Shop Detail</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    pages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="shopping.html">Shopping Cart</a></li>
+                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                  </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <!-- Men Fashion starts here  -->
+    <div class="container men-fashion">
+        <div class="row">
+            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 mb-4">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active position-relative" style="height: 430px;">
+                      <img src="img/carousel-1.jpg" class="d-block w-100 h-100" alt="..." style="object-fit: cover;">
+                      <div class="carousel-caption d-flex align-items-center justify-content-center position-absolute" style="top: 0; left: 0;">
+                          <div class="text">
+                            <h1 class="animate__animated animate__fadeInDown">Men Fashion</h1>
+                            <p class="animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips <br> duo stet amet amet ndiam elitr ipsum diam</p>
+                            <a href="" class="btn btn-primary animate__animated animate__fadeInUp btn-dif btn-outline-light">Shop Now</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item position-relative" style="height: 430px;">
+                      <img src="img/carousel-2.jpg" class="d-block w-100 h-100" alt="..." style="object-fit: cover;">
+                      <div class="carousel-caption d-flex align-items-center justify-content-center position-absolute" style="top: 0; left: 0;">
+                          <div class="text">
+                            <h1 class="animate__animated animate__fadeInDown">Women Fashion</h1>
+                            <p class="animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips <br> duo stet amet amet ndiam elitr ipsum diam</p>
+                            <a href="" class="btn btn-primary animate__animated animate__fadeInUp btn-dif btn-outline-light">Shop Now</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item position-relative" style="height: 430px;">
+                      <img src="img/carousel-3.jpg" class="d-block w-100 h-100" alt="..." style="object-fit:cover;">
+                      <div class="carousel-caption d-flex align-items-center justify-content-center position-absolute" style="top: 0; left: 0;">
+                          <div class="text">
+                            <h1 class="animate__animated animate__fadeInDown">Kids Fashion</h1>
+                            <p class="animate__animated animate__bounceIn">Lorem rebum magna amet lorem magna erat diam stet. Sadips <br> duo stet amet amet ndiam elitr ipsum diam</p>
+                            <a href="" class="btn btn-primary animate__animated animate__fadeInUp btn-dif btn-outline-light">Shop Now</a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12">
+                <div class="row">
+                    <div class="col-xxl-12 margin-bottom">
+                        <main>
+                            <div class="img-text" style="height: 205px;">
+                              <img src="img/offer-1.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">
+                            </div>
+
+                            <div class="overly">
+                                <h6>Save 20%</h6>
+                                <h4>Special Offer</h4>
+                                <a href="" class="btn btn-primary btn-dif2 btn-outline-light">Shop Now</a>
+                            </div>
+                        </main>
+                    </div>
+
+                    <div class="col-xxl-12">
+                      <main>
+                        <div class="img-text" style="height: 205px;">
+                          <img src="img/offer-2.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">
+                        </div>
+
+                        <div class="overly">
+                            <h6>Save 20%</h6>
+                            <h4>Special Offer</h4>
+                            <a href="" class="btn btn-primary btn-dif2 btn-outline-light">Shop Now</a>
+                        </div>
+                    </main>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- Quality starts here  -->
+    <div class="container quality">
+        <div class="row">
+            <div class="col-xxl-3 col-xl-3  col-lg-6 col-md-6">
+                <div class="item-quality mb-4 p-4 text-center">
+                    <h5><i class="fa fa-check me-2 mb"></i> <span>Quality Product</span></h5>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
+                <div class="item-quality mb-4 p-4 text-center">
+                    <h5><i class="fa fa-shipping-fast me-2"></i> <span>Free Shopping</span></h5>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
+                <div class="item-quality mb-4 p-4 text-center">
+                    <h5><i class="fas fa-exchange-alt me-2"></i> <span>14-Day Return</span></h5>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
+                <div class="item-quality mb-4 p-4 text-center">
+                    <h5><i class="fa fa-phone-volume me-2"></i> <span>24/7 Support</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORIES starts here  -->
+
+    <div class="container categories">
+        <div class="row mb-3">
+            <div class="col-xxl-12">
+                <div class="heading">
+                    <h2>CATEGORIES</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0  row-cols-2 img-zoom1 d-flex ">
+                  <div class="col-md-4 col-sm-4 col-xs-4  img-zoom2">
+                    <img src="img/cat-1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0 row-cols-2 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row row-cols-2 g-0 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-3.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row row-cols-2 g-0 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-4.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0  row-cols-2 img-zoom1 d-flex ">
+                  <div class="col-md-4 col-sm-4 col-xs-4  img-zoom2">
+                    <img src="img/cat-4.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 ">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0 row-cols-2 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-3.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 ">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row row-cols-2 g-0 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row row-cols-2 g-0 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0  row-cols-2 img-zoom1 d-flex ">
+                  <div class="col-md-4 col-sm-4 col-xs-4  img-zoom2">
+                    <img src="img/cat-2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 ">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0 row-cols-2 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row row-cols-2 g-0 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-4.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row row-cols-2 g-0 img-zoom1">
+                  <div class="col-md-4 col-sm-4 col-xs-4 img-zoom2">
+                    <img src="img/cat-3.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8 category-text">
+                    <div class="card-body body-dif">
+                      <h6 class="card-title">Category Name</h6>
+                      <small class="card-text">100 Products</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURED PRODUCTS starts here -->
+    <div class="container feature">
+        <div class="row mb-3">
+            <div class="col-xxl-12">
+                  <h2>FEATURED PRODUCTS</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-1.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-2.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-3.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-4.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-5.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-6.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-7.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+              <div class="card main-product mb-4 p-4">
+                <div class="img-product overly-main">
+                    <div class="img-product-zoom">
+                      <img src="img/product-8.jpg" class="card-img-top">
+                    </div>
+
+                    <div class="overly2">
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                      <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+                
+                <div class="card-body text-center">
+                    <h6>Product Name Goes Here</h6>
+                    <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                    <div class="product-icon mt-1">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <span  style="font-size: unset !important;">(99)</span>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- TRANDY PRODUCTS starts here -->
+    <div class="container feature">
+      <div class="row mb-3">
+          <div class="col-xxl-12">
+                <h2>TRANDY PRODUCTS</h2>
+          </div>
+      </div>
+
+      <div class="row" id="zaid">
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/z1.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/z2.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/z3.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/z4.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/Z5.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/Z6.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/Z7.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/Z8.jpg" class="card-img-top">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WOMEN PRODUCTS starts here -->
+    <div class="container feature">
+      <div class="row mb-3">
+          <div class="col-xxl-12">
+                <h2>WOMEN PRODUCTS</h2>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/1.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/2.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/3.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/4.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/5.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/6.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/7.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/8.jpg" class="card-img-top">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>UT WISI ENIM AD</h6>
+                  <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT OVERVIEW here -->
+    <div class="container feature">
+      <div class="row mb-3">
+          <div class="col-xxl-12">
+                <h2>PRODUCT OVERVIEW</h2>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f8.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Esprit Ruffle Shirt</h6>
+                <p class="mb-0"><span class="me-2">$16.64</span> <del>$40.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f7.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Herschel supply</h6>
+                <p class="mb-0"><span class="me-2">$20.25</span> <del>$25.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f6.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>UT WISI ENIM AD</h6>
+                <p class="mb-0"><span class="me-2">$40.25</span> <del>$123.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f5.png" class="card-img-top">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Only Check Trouser</h6>
+                <p class="mb-0"><span class="me-2">$18.25</span> <del>$23.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f4.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Classic Trench Coat</h6>
+                <p class="mb-0"><span class="me-2">$10.25</span> <del>$12.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f3.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Front Pocket Jumper</h6>
+                <p class="mb-0"><span class="me-2">$40.25</span> <del>$42.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f2.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Vintage Inspired Classic</h6>
+                <p class="mb-0"><span class="me-2">$93.00</span> <del>$123.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f1.png" class="card-img-top">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Shirt in Stretch Cotton</h6>
+                <p class="mb-0"><span class="me-2">$50.00</span> <del>$51.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f9.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Converse All Star Hi Plimsolls</h6>
+                <p class="mb-0"><span class="me-2">$93.64</span> <del>$94.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f10.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Femme T-Shirt In Stripe</h6>
+                <p class="mb-0"><span class="me-2">$25.25</span> <del>$26.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f11.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Herschel supply</h6>
+                <p class="mb-0"><span class="me-2">$63.25</span> <del>$70.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f12.png" class="card-img-top">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Herschel supply</h6>
+                <p class="mb-0"><span class="me-2">$18.25</span> <del>$23.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f13.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>T-Shirt with Sleeve</h6>
+                <p class="mb-0"><span class="me-2">$18.25</span> <del>$19.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f14.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Pretty Little Thingg</h6>
+                <p class="mb-0"><span class="me-2">$64.25</span> <del>$70.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f15.png" class="card-img-top" alt="...">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Mini Silver Mesh Watch</h6>
+                <p class="mb-0"><span class="me-2">$93.00</span> <del>$123.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+          <div class="card main-product mb-4 p-4">
+            <div class="img-product overly-main">
+                <div class="img-product-zoom">
+                  <img src="img/f16.png" class="card-img-top">
+                </div>
+        
+                <div class="overly2">
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                  <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            
+            <div class="card-body text-center">
+                <h6>Square Neck Back</h6>
+                <p class="mb-0"><span class="me-2">$50.00</span> <del>$51.00</del></p>
+                <div class="product-icon mt-1">
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <small class="fa fa-star"></small>
+                    <span  style="font-size: unset !important;">(99)</span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- offer starts here  -->
+    <div class="container offer">
+        <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 mb-4">
+                <div class="offer-items">
+                    <div class="img-offer" style="height: 300px;">
+                        <img src="img/offer-1.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">
+                    </div>
+                    <div class="overly3">
+                      <h6>Save 20%</h6>
+                      <h4 class="mb-3">Special Offer</h4>
+                      <a href="" class="btn btn-primary btn-dif2 btn-outline-light">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+              <div class="offer-items">
+                  <div class="img-offer" style="height: 300px;">
+                      <img src="img/offer-2.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">
+                  </div>
+                  <div class="overly3">
+                    <h6>Save 20%</h6>
+                    <h4 class="mb-3">Special Offer</h4>
+                    <a href="" class="btn btn-primary btn-dif2 btn-outline-light">Shop Now</a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RECENT PRODUCTS starts here -->
+    <div class="container feature">
+      <div class="row mb-3">
+          <div class="col-xxl-12">
+                <h2>RECENT PRODUCTS</h2>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-4.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-3.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-2.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-1.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-8.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-7.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-6.jpg" class="card-img-top" alt="...">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+            <div class="card main-product mb-4 p-4">
+              <div class="img-product overly-main">
+                  <div class="img-product-zoom">
+                    <img src="img/product-5.jpg" class="card-img-top">
+                  </div>
+
+                  <div class="overly2">
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1"><i class="far fa-heart"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-sync-alt"></i></a>
+                    <a href="" class="btn btn-primary btn-outline-dark  me-1 "><i class="fa fa-search"></i></a>
+                  </div>
+              </div>
+              
+              <div class="card-body text-center">
+                  <h6>Product Name Goes Here</h6>
+                  <p class="mb-0"><span class="me-2">$123.00</span> <del>$123.00</del></p>
+                  <div class="product-icon mt-1">
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <small class="fa fa-star"></small>
+                      <span  style="font-size: unset !important;">(99)</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- client starts here -->
+    <div class="container client">
+        <div class="row">
+          <div class="owl-carousel owl-theme" id="slider-1">
+              <div class="item">
+                <img src="img/vendor-1.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/vendor-2.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/vendor-3.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/vendor-4.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/vendor-5.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/vendor-6.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/vendor-7.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="img/vendor-8.jpg" alt="">
+              </div>
+              
+          </div>
+        </div>
+    </div>
+
+    <!-- footer starts here  -->
+    <footer>
+      <div class="container loc-footer">
+          <div class="row mb-5">
+              <div class="col-xxl-3 col-xl-3 mb-3 col-lg-3 col-md-12 ">
+                  <div class="footer-details footer-dif">
+                      <h5 class="mb-4 text-uppercase">GET IN TOUCH</h5>
+                      <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
+                      <p class="mb-2"><i class="fa fa-map-marker-alt me-2"></i> <span>123 Street, New York, USA</span></p>
+                      <p class="mb-2"><i class="fa fa-envelope me-2"></i> <span>info@example.com</span></p>
+                      <p class="mb-2"><i class="fa fa-phone-alt me-2"></i> <span>+012 345 67890</span></p>
+                  </div>
+              </div>
+
+              <div class="col-xxl-3 col-xl-3 mb-3 col-lg-3 col-md-4">
+                
+                  <div class="footer-click">
+                    <h5 class="mb-4 text-uppercase ">QUICK SHOP</h5>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Home</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Our Service</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Shop Detail</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Shopping Cart</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Checkout</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Contact Us</a>
+                  </div>
+                  
+              </div>
+
+              <div class="col-xxl-3 col-xl-3 col-lg-3 mb-3 col-md-4">
+                  <div class="footer-click">
+                    <h5 class="mb-4 text-uppercase">MY ACCOUNT</h5>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Home</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Our Service</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Shop Detail</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Shopping Cart</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Checkout</a>
+                    <a href="" class="mb-2 d-block"><i class="fa fa-angle-right"></i> Contact Us</a>
+                  </div>
+              </div>
+
+              <div class="col-xxl-3 col-xl-3 col-lg-3 mb-3 col-md-4">
+                  <div class="footer-click">
+                    <h5 class="mb-4 text-uppercase">newsletter</h5>
+                    <p class="mb-3">Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                    <form action="#" class="mb-3">
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Enter Your Address" aria-label="Enter Your Address" aria-describedby="button-addon2">
+                          <button class="btn btn-warning btn-outline-warning text-white bt-dif" type="button" id="button-addon2">Sign Up</button>
+                        </div>
+                    </form>
+                    <h6 class="mb-3">FOLLOW US</h6>
+                    <div class="footer-icon">
+                        <a href="" class=" btn btn-warning btn-outline-warning text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="" class=" btn btn-warning btn-outline-warning text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class=" btn btn-warning btn-outline-warning text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="" class="btn btn-warning btn-outline-warning text-white me-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="copyright ">
+              <div class="last d-flex justify-content-between align-items-center">
+                <div class="copy-left">
+                  &copy; Copy Right 2023 Created by <span style="color: #FFD333;">Zaid Ali Khan</span>
+              </div>
+
+              <div class="copy-right">
+                  <img src="img/payments.png" alt="">
+              </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
